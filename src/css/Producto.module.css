@@ -1,0 +1,19 @@
+.modal{
+    width:400px;
+    height:auto;
+    background-color:rgb(235, 231, 231);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-emphasis:center;
+    border-radius: 20px;
+}
+
+.descripcion{
+    text-align:center;
+}
+.img{
+  height:200px;
+  border-radius: 20px;
+}
