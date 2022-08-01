@@ -11,7 +11,7 @@ function App() {
   console.log('produ',productos)
   console.log('mensaje',mensaje)
   
-  const url = 'http://localhost:9000/productos'
+  const url = 'https://mongodbback.herokuapp.com/productos'
   const llamada = async () =>{
     const respuesta = await fetch(url)
     const results = await respuesta.json()
